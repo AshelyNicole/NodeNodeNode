@@ -57,8 +57,9 @@ function promptUser() {
       }
     ])
     .then(answers=>{
-        
-      console.log(answers)
+      let toc = `[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)]
+      (https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)\n\n
+      Table of Contents\n\n`
       let linkArray = [
         "Installation",
         "Usage",
